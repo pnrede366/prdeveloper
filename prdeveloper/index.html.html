@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>PRdeveloper</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header class="d-flex justify-content-around" id="nv">
+        <div id="nav_1" class="">
+            <div class="nav_item m-2"><i class="text-dark m-2 fa fa-envelope nav_icon_1"
+                    aria-hidden="true"></i><span>prdeveloper.tech@gmail.com</span>
+            </div>
+            <div class="nav_item m-2"><i class="text-dark m-2 fa fa-phone nav_icon_1" aria-hidden="true"></i><span>+91
+                    8483955960</span>
+            </div>
+            <div class="nav_item m-2"><i class="text-dark m-2 fa fa-clock-o nav_icon_1"
+                    aria-hidden="true"></i><span>Mon. - Fri.
+                    11AM -
+                    11PM</span>
+            </div>
+        </div>
+        <div id="nav_2">
+            <span><i class="fa fa-facebook nav_icon_2 m-3 text-dark" aria-hidden="true"></i></span>
+            <span><i class="fa fa-twitter nav_icon_2 m-3 text-dark" aria-hidden="true"></i></span>
+            <span><i class="fa fa-instagram nav_icon_2 m-3 text-dark" aria-hidden="true"></i></span>
+            <span><i class="fa fa-search nav_icon_2 m-3 text-dark" aria-hidden="true"></i></span>
+        </div>
+
+
+    </header>
+    <!-- <hr> -->
+    <!-- <nav>
+        <div id="nav" class="d-flex justify-content-around p-5  m-md-0">
+            <div id="logo_div"> <img src="./logo.png" alt="" id="logo" class="">
+            </div>
+
+            <div id="nav_main" class="d-flex p-3">
+
+                <div class="mx-4 nav-it">Home</div>
+                <div class="mx-4 nav-it">Services</div>
+                <div class="mx-4 nav-it">About us</div>
+                <div class="mx-4 nav-it">Why us</div>
+                <div class="mx-4 nav-it">Testimonials</div>
+                <div class="mx-4 nav-it">Prices</div>
+                <div class="toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+
+    </nav> -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light d-flex">
+        <a class="navbar-brand" href="#"><img src="./logo.png" style="width: 20rem;" alt="" id="logo" class="ml-5"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#">Prices</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#">Why us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="d-flex">
+        <div id="details" class="d-flex flex-column justify-content-center align-items-start">
+
+            <div class="text_main" style="width: 23ch;">We create awesome <br> <span id="change_text"></span> website
+            </div>
+            <br>
+            <div class="text_descr">We have expertise team of front-end and back-end developer<br>
+                For more detail whatsapp us +91 8483955960
+            </div>
+            <br>
+            <div id="btn_group" class=""><button id="services" class="m-3">Our
+                    services</button><button id="hire" class="m-3">Hire
+                    us</button></div>
+        </div>
+        <div id="home_right" class="d-flex justify-content-center align-items-center m-5">
+            <form action="" id="form">
+                <h1 class="consultation">Contact us!</h1>
+                <input type="text" class="form-control my-5 p-5" style="font-size: 2rem;" placeholder="Your name">
+                <input type="text" class="form-control my-5 p-5" style="font-size: 2rem;" placeholder="Phone number">
+                <input type="text" class="form-control my-5 p-5" style="font-size: 2rem;" placeholder="E-mail">
+                <select name="" id="" style="font-size: 2.5rem" class="form-control">
+                    <option value="" selected>select</option>
+                    <option value="">Meeting</option>
+                    <option value="">Contact</option>
+                </select>
+
+                <p class="form_para mt-4">
+                    We will get in touch with you as early as possible.
+                </p>
+                <br>
+                <button class="btn btn-primary btn-lg btn-block my-3 py-4 ">send
+                    message</button>
+            </form>
+        </div>
+    </section>
+    <section class="mt-5" id="wwd">
+        <div class="text_wwd d-flex flex-column align-items-center p-5">
+            <div class="text-muted m-3">What we do</div>
+            <div class="text_ht_wwd">We offer premium website <br> services to our clients</div>
+        </div>
+        <div class="row m-5">
+            <div data-tilt class="services_wwd services_wwd_1  col-md-6 col-lg-3 col-sm-12 col-12">
+                <div class="icons_wwd mx-auto"><i class="fa fa-code text-primary p-4 fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="text-center heading_wwd p-3">Premium Website</div>
+                <div class="text-muted m-3">
+                    We offer premium web-service. Create your own webiste at cheap price
+                </div>
+            </div>
+            <div data-tilt class="services_wwd services_wwd_2 col-md-6 col-lg-3  col-sm-12 col-12">
+                <div class="icons_wwd"><i class="fa fa-briefcase text-primary p-4 fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="text-center heading_wwd p-3">Website Maintainance</div>
+                <div class="text-muted m-3">Now don't worry we will manage your websites
+                </div>
+            </div>
+            <div data-tilt class="services_wwd services_wwd_3 col-md-6 col-lg-3 col-sm-12 col-12">
+                <div class="icons_wwd"><i class="fa  fa-user-circle-o text-primary p-4 fa-2x" style="color: white;"
+                        aria-hidden="true"></i></div>
+                <div class="text-center heading_wwd p-3">Client support</div>
+                <div class="text-muted m-3">
+                    We provide instant client support. <br>No need to wait fastest client support
+                </div>
+            </div>
+            <div data-tilt class="services_wwd services_wwd_4 col-md-6 col-lg-3 col-sm-12 col-12">
+                <div class="icons_wwd"><i class="fa fa-line-chart text-primary p-4 fa-2x" aria-hidden="true"></i></div>
+                <div class="text-center heading_wwd m-3">Latest Technologies</div>
+                <div class="text-muted m-4">
+                    We work with latest Technologies <br> on both front and backe-end
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="">
+        <div class="img_about"><img
+                src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/32/2019/09/about-us.jpg" alt="">
+        </div>
+        <div class="descr_about">
+            <div class="text-muted my-5">About us</div>
+            <h1 class="heading_about my-5">Innovative & Cost effective</h1>
+            <div class="text-muted para_about my-5">
+                We are happy to introduce about our self, Prdeveloper is one of the best IT services providing company.
+                We have grown more than 100+ Projects with most recent technology and effectively running our website
+                design company throughout
+                the last 2 years and have exceeded expectations in the field with the complete fulfillment of our
+                customers.
+            </div>
+            <button id="learn" class="my-5">Learn more</button>
+        </div>
+    </section>
+    <br><br>
+    <section id="achievement">
+        <div class="d-flex flex-column justify-content-center align-items-center" id="text_achievement">
+            <div class="m-2">Some facts</div>
+            <h1 class="m-2">Achievemts in number</h1>
+        </div>
+        <div id="num_achievement">
+            <div class="box_achievements">
+                <div>100+</div>
+                <div>Finished Projects</div>
+            </div>
+            <div class="vl"></div>
+            <div class="box_achievements">
+                <div>100</div>
+                <div>Working Projects</div>
+            </div>
+            <div class="vl"></div>
+            <div class="box_achievements">
+                <div>100+</div>
+                <div>Satisfied Customers</div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="why_us">
+        <div id="why_us_1">
+            <div class="text-muted my-5">Why us</div>
+            <h1 class="my-5">Benefits you get as a client
+            </h1>
+            <div class="my-5 text-muted">
+                The main purpose of your Why Us page is to clear your doubts as a person or
+                a business.
+            </div>
+            <div id="why_us_grid">
+                <div class="grid_item">
+                    <div class="grid_heading py-3">
+                        Front-end experts</div>
+                    <div class="gird_descr text-muted">
+                        We have expertise fron-end developers of latest Technologies
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_heading py-3">Weekly statistics</div>
+                    <div class="gird_descr text-muted">
+                        We provide weekly statistics of your website for the best SEO
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_heading py-3">
+                        Advance SEO</div>
+                    <div class="gird_descr text-muted">
+
+                        Want your website on google first page.We provide Advance SEO obtaining a high ranking in search
+                        results
+                    </div>
+                </div>
+                <div class="grid_item">
+                    <div class="grid_heading py-3">24/7 support</div>
+                    <div class="gird_descr text-muted">
+                        We provide instant client support.
+                        No need to wait fastest client support
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="why_us_2">
+            <img src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/32/2019/09/why-us.jpg" alt="">
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="heading_testimonials p-5 text-center">
+            <div class="py-5"></div>
+            <!-- <div class=" py-5 text-light">Developers</div> -->
+            <h1 class="text-light">Our Developers</h1>
+        </div>
+        <div class="descr_testimonials">
+            <div class="m-5 d-flex flex-column mx-auto">
+                <img class="m-auto"
+                    src="https://yt3.ggpht.com/ytc/AAUvwnj1tVveuFMX26fDASuBFapZcRjWxCDQnve8aSceuA=s900-c-k-c0x00ffffff-no-rj"
+                    style="height:10rem;width:10rem;border-radius:5rem" alt="">
+                <div class="text-muted m-3 mx-auto">
+                    I am a Full stack developer having experience of 3 years in blogging and SEO.
+                </div>
+                <div class="m-3 mx-auto" style="font-weight: bold;font-size: 3rem;color: rgb(0, 0, 85);">Purushottam
+                    Rede</div>
+                <div class="m-3 mx-auto text-muted" style="font-size: 2rem;">Full Stack Developer</div>
+
+            </div>
+            <!-- <div class="line" style="height: 35rem;width: 1px;background-color: gray;"></div>
+            <div class="m-5">
+                <img class="m-3"
+                    src="https://cdn.jevelin.shufflehound.com/wp-content/uploads/sites/32/2019/10/testimonials-client1.jpg"
+                    alt="">
+                <div class="text-muted m-3">
+
+                    Now is the winter of our discontent. Made glorious summer by this sun of York. And all the clouds
+                    that lour’d upon our house. In the deep bosom of the ocean buried.
+                </div>
+                <div class="m-3">Arnold Oak</div>
+                <div class="m-3">Oak corporation co-founder</div>
+            </div> -->
+            <div></div>
+        </div>
+    </section>
+    <section id="hire_us">
+        <div class="descr_hire">
+            <h1 class="heading_hire text-light m-5">Web experts one click away!</h1>
+            <div class="para_hire m-5">
+                we have a passion and energy about our work and where we live
+            </div>
+        </div>
+        <div class="btn_hire">
+            <button>Hire us today!</button>
+        </div>
+    </section>
+
+    <footer class="">
+        <div class="m-5" id="footer_1">
+            <img class="m-2" src="./logo.png" alt="" style="width: 50rem;">
+            <div class="text-muted m-2">Now is the winter of our discontent Made glorious summer by this sun of York
+            </div>
+            <div class="text-muted m-2">
+                © 2019 Jevelin. All Rights Reserved.
+            </div>
+        </div>
+        <div class="d-flex" id="footer_2">
+            <div class="m-5">
+                <div class="heading_footer m-2">Services</div>
+                <div class="text-muted m-2">Accounting</div>
+                <div class="text-muted m-2">Financing</div>
+                <div class="text-muted m-2">New business</div>
+            </div>
+            <div class="m-5">
+                <div class="heading_footer m-2">About us</div>
+                <div class="text-muted m-2">Why us</div>
+                <div class="text-muted m-2">Testimonials</div>
+                <div class="text-muted m-2">About</div>
+            </div>
+            <div class="m-5">
+                <div class="heading_footer m-2">Contact information</div>
+                <div class="text-muted m-2">470 344 424 4252</div>
+                <div class="text-muted m-2">brand@company.co</div>
+                <div class="m-2"><i class="fa fa-facebook" aria-hidden="true"></i><i class="fa fa-twitter"
+                        aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- *************-----------js-------------******************* -->
+    <script src="./vanilla-tilt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script>
+        gsap.from("form", { duration: 1, opacity: 0, y: 200 });
+        gsap.from("#details", { duration: 1, opacity: 0, x: -200 });
+        gsap.from(".text_main", { duration: 1, opacity: 1, y: 10 });
+        gsap.from(".text_descr", { duration: 1, opacity: 1, y: 10 });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").hover(function () {
+                $(this).addClass('animate__animated animate__flipInY');
+            });
+
+
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
