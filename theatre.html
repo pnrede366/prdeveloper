@@ -16,14 +16,15 @@
             box-sizing: border-box;
         }
 
+        body {
+            padding: 1rem;
+        }
+
         #theatre {
             border: 2px solid rgb(208, 255, 0);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 50vw;
-            margin: 2rem auto;
-            box-shadow: 0px 0px 10px rgb(255, 240, 32);
+            width: auto;
+            /* margin: 10rem; */
+            box-shadow: px 0px 10px rgb(255, 240, 32);
 
         }
 
@@ -50,8 +51,7 @@
         }
 
         .seat_row {
-            display: flex;
-            justify-content: center;
+            width: 100%;
         }
 
         #screen {
@@ -94,12 +94,14 @@
             html {
                 font-size: 6px;
             }
+
+
         }
     </style>
 </head>
 
 <body>
-    <select name="" id="tt" value="100" M>
+    <select name="" id="tt" value="100" class="form-control">
         <option value="100" id="movie_1" selected>Movie 1</option>
         <option value="150" id="movie_2">Movie 2</option>
         <option value="200" id="movie_3">Movie 3</option>
@@ -108,66 +110,68 @@
         <div id="screen" class="col-sm-6 offset-sm-4">Screen Is Here</div>
     </div>
 
-    <!-- <div class="row"> -->
-    <div id="theatre" class="row">
-        <div id="rows_1" class="seat_row">
-            <div class="seat m-3" id="seat_1" value="1"></div>
-            <div class="seat m-3" id="seat_2" value="2"></div>
-            <div class="seat m-3" id="seat_3" value="3"></div>
-            <div class="seat m-3" id="seat_4" value="4"></div>
-            <div class="seat m-3" id="seat_5" value="5"></div>
-            <div class="seat m-3" id="seat_6" value="6"></div>
-            <div class="seat m-3" id="seat_7" value="7"></div>
-            <div class="seat m-3" id="seat_8" value="8"></div>
-            <div class="seat m-3" id="seat_9" value="9"></div>
-            <div class="seat m-3" id="seat_10" value="10"></div>
-            <div class=" seat m-3" id="seat_11" value="11"></div>
-            <div class=" seat m-3" id="seat_12" value="12"></div>
+    <!-- <di"> -->
+    <div id="theatre" class="">
+        <div class="row d-flex m-auto">
+            <div id="rows_1" class="seat_row d-flex  justify-content-between">
+                <div class="seat m-3" id="seat_1" value="1"></div>
+                <div class="seat m-3" id="seat_2" value="2"></div>
+                <div class="seat m-3" id="seat_3" value="3"></div>
+                <div class="seat m-3" id="seat_4" value="4"></div>
+                <div class="seat m-3" id="seat_5" value="5"></div>
+                <div class="seat m-3" id="seat_6" value="6"></div>
+                <div class="seat m-3" id="seat_7" value="7"></div>
+                <div class="seat m-3" id="seat_8" value="8"></div>
+                <div class="seat m-3" id="seat_9" value="9"></div>
+                <div class="seat m-3" id="seat_10" value="10"></div>
+                <div class=" seat m-3" id="seat_11" value="11"></div>
+                <div class=" seat m-3" id="seat_12" value="12"></div>
+            </div>
+            <div id=" rows_2" class="seat_row d-flex  justify-content-between">
+                <div class="seat m-3" id="seat_13" value="13"></div>
+                <div class="seat m-3" id="seat_14" value="14"></div>
+                <div class="seat m-3" id="seat_15" value="15"></div>
+                <div class="seat m-3" id="seat_16" value="16"></div>
+                <div class="seat m-3" id="seat_17" value="17"></div>
+                <div class="seat m-3" id="seat_18" value="18"></div>
+                <div class="seat m-3" id="seat_19" value="19"></div>
+                <div class="seat m-3" id="seat_20" value="20"></div>
+                <div class="seat m-3" id="seat_21" value="21"></div>
+                <div class="seat m-3" id="seat_22" value="22"></div>
+                <div class="seat m-3" id="seat_23" value="23"></div>
+                <div class="seat m-3" id="seat_24" value="24"></div>
+            </div>
+            <div id=" rows_3" class="seat_row d-flex  justify-content-between">
+                <div class="seat m-3" id="seat_25" value="25"></div>
+                <div class="seat m-3" id="seat_26" value="26"></div>
+                <div class="seat m-3" id="seat_27" value="27"></div>
+                <div class="seat m-3" id="seat_28" value="28"></div>
+                <div class="seat m-3" id="seat_29" value="29"></div>
+                <div class="seat m-3" id="seat_30" value="30"></div>
+                <div class="seat m-3" id="seat_31" value="31"></div>
+                <div class="seat m-3" id="seat_32" value="32"></div>
+                <div class="seat m-3" id="seat_33" value="33"></div>
+                <div class="seat m-3" id="seat_34" value="34"></div>
+                <div class="seat m-3" id="seat_35" value="35"></div>
+                <div class="seat m-3" id="seat_36" value="36"></div>
+            </div>
+            <div id=" rows_4" class="seat_row d-flex  justify-content-between">
+                <div class="seat m-3" id="seat_37" value="37"></div>
+                <div class="seat m-3" id="seat_38" value="38"></div>
+                <div class="seat m-3" id="seat_39" value="39"></div>
+                <div class="seat m-3" id="seat_40" value="40"></div>
+                <div class="seat m-3" id="seat_41" value="41"></div>
+                <div class="seat m-3" id="seat_42" value="42"></div>
+                <div class="seat m-3" id="seat_43" value="43"></div>
+                <div class="seat m-3" id="seat_44" value="44"></div>
+                <div class="seat m-3" id="seat_45" value="45"></div>
+                <div class="seat m-3" id="seat_46" value="46"></div>
+                <div class="seat m-3" id="seat_47" value="47"></div>
+                <div class="seat m-3" id="seat_48" value="48"></div>
+            </div>
         </div>
-        <div id=" rows_2" class="seat_row">
-            <div class="seat m-3" id="seat_13" value="13"></div>
-            <div class="seat m-3" id="seat_14" value="14"></div>
-            <div class="seat m-3" id="seat_15" value="15"></div>
-            <div class="seat m-3" id="seat_16" value="16"></div>
-            <div class="seat m-3" id="seat_17" value="17"></div>
-            <div class="seat m-3" id="seat_18" value="18"></div>
-            <div class="seat m-3" id="seat_19" value="19"></div>
-            <div class="seat m-3" id="seat_20" value="20"></div>
-            <div class="seat m-3" id="seat_21" value="21"></div>
-            <div class="seat m-3" id="seat_22" value="22"></div>
-            <div class="seat m-3" id="seat_23" value="23"></div>
-            <div class="seat m-3" id="seat_24" value="24"></div>
-        </div>
-        <div id=" rows_3" class="seat_row">
-            <div class="seat m-3" id="seat_25" value="25"></div>
-            <div class="seat m-3" id="seat_26" value="26"></div>
-            <div class="seat m-3" id="seat_27" value="27"></div>
-            <div class="seat m-3" id="seat_28" value="28"></div>
-            <div class="seat m-3" id="seat_29" value="29"></div>
-            <div class="seat m-3" id="seat_30" value="30"></div>
-            <div class="seat m-3" id="seat_31" value="31"></div>
-            <div class="seat m-3" id="seat_32" value="32"></div>
-            <div class="seat m-3" id="seat_33" value="33"></div>
-            <div class="seat m-3" id="seat_34" value="34"></div>
-            <div class="seat m-3" id="seat_35" value="35"></div>
-            <div class="seat m-3" id="seat_36" value="36"></div>
-        </div>
-        <div id=" rows_4" class="seat_row">
-            <div class="seat m-3" id="seat_37" value="37"></div>
-            <div class="seat m-3" id="seat_38" value="38"></div>
-            <div class="seat m-3" id="seat_39" value="39"></div>
-            <div class="seat m-3" id="seat_40" value="40"></div>
-            <div class="seat m-3" id="seat_41" value="41"></div>
-            <div class="seat m-3" id="seat_42" value="42"></div>
-            <div class="seat m-3" id="seat_43" value="43"></div>
-            <div class="seat m-3" id="seat_44" value="44"></div>
-            <div class="seat m-3" id="seat_45" value="45"></div>
-            <div class="seat m-3" id="seat_46" value="46"></div>
-            <div class="seat m-3" id="seat_47" value="47"></div>
-            <div class="seat m-3" id="seat_48" value="48"></div>
-        </div>
-        <button class="btn btn-success " id="booked">Booked</button>
 
+        <button class="btn btn-success btn-block" id="booked">Booked</button>
     </div>
 
     <!-- </div> -->
